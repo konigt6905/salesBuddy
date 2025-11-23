@@ -33,13 +33,13 @@ export default function Navigation() {
         : 'bg-transparent'
     }`}>
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-14 sm:h-16">
           {/* Logo */}
-          <div className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-r from-blue-500 to-cyan-500 flex items-center justify-center">
-              <Zap className="w-5 h-5 text-white" />
+          <div className="flex items-center gap-1.5 sm:gap-2">
+            <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-lg bg-gradient-to-r from-blue-500 to-cyan-500 flex items-center justify-center">
+              <Zap className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
             </div>
-            <span className="text-xl font-bold text-white">Sales Buddy</span>
+            <span className="text-lg sm:text-xl font-bold text-white">Sales Buddy</span>
           </div>
 
           {/* Desktop Nav */}
@@ -79,21 +79,21 @@ export default function Navigation() {
       {/* Mobile menu panel */}
       {mobileMenuOpen && (
         <div className="md:hidden bg-black/95 backdrop-blur-lg border-t border-white/10 animate-slide-up">
-          <div className="px-4 py-4 space-y-3">
+          <div className="px-4 py-3 space-y-1">
             {navItems.map((item) => (
               <button
                 key={item.id}
                 onClick={() => handleNavClick(item.id)}
-                className="block w-full text-left text-gray-300 hover:text-white py-2 transition-colors"
+                className="block w-full text-left text-gray-300 hover:text-white hover:bg-white/5 py-2.5 px-3 rounded-lg transition-colors text-sm"
               >
                 {item.label}
               </button>
             ))}
-            <div className="pt-4 border-t border-white/10 space-y-3">
-              <button className="block w-full text-left text-gray-300 hover:text-white py-2">
+            <div className="pt-3 mt-2 border-t border-white/10 space-y-2">
+              <button className="block w-full text-left text-gray-300 hover:text-white hover:bg-white/5 py-2.5 px-3 rounded-lg transition-colors text-sm">
                 Log In
               </button>
-              <button className="w-full px-4 py-3 rounded-lg bg-gradient-to-r from-blue-500 to-cyan-500 text-white font-semibold">
+              <button className="w-full px-4 py-2.5 rounded-xl bg-gradient-to-r from-blue-500 to-cyan-500 text-white font-semibold text-sm">
                 Start Free Trial
               </button>
             </div>

@@ -16,6 +16,21 @@
   100% { transform: translateY(0); opacity: 1; }
 }
 
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes slideInUp {
+  0% { transform: translateY(30px); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes heroReveal {
+  0% { opacity: 0; transform: scale(0.98); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
 @keyframes scaleIn {
   0% { transform: scale(0.95); opacity: 0; }
   100% { transform: scale(1); opacity: 1; }
@@ -54,7 +69,10 @@
 /* Utility classes */
 .animate-float { animation: float 3s ease-in-out infinite; }
 .animate-slide-up { animation: slideUp 0.3s ease-out; }
-.animate-fade-in-up { animation: fadeInUp 0.5s cubic-bezier(0.16, 1, 0.3, 1); }
+.animate-fade-in-up { animation: fadeInUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) both; }
+.animate-fade-in { animation: fadeIn 0.6s ease-out both; }
+.animate-slide-in-up { animation: slideInUp 0.7s cubic-bezier(0.16, 1, 0.3, 1) both; }
+.animate-hero-reveal { animation: heroReveal 0.8s cubic-bezier(0.16, 1, 0.3, 1) both; }
 .animate-scale-in { animation: scaleIn 0.3s ease-out; }
 .animate-shimmer { animation: shimmer 2s infinite; }
 .animate-pulse-glow { animation: pulse-glow 2s ease-in-out infinite; }
@@ -62,6 +80,14 @@
   background-size: 200% 200%;
   animation: gradient-shift 3s ease infinite;
 }
+
+/* Staggered animation delays */
+.delay-100 { animation-delay: 100ms; }
+.delay-200 { animation-delay: 200ms; }
+.delay-300 { animation-delay: 300ms; }
+.delay-400 { animation-delay: 400ms; }
+.delay-500 { animation-delay: 500ms; }
+.delay-600 { animation-delay: 600ms; }
 
 /* Glass effect */
 .glass {
