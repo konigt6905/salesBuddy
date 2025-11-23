@@ -72,12 +72,6 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative max-w-7xl mx-auto text-center z-10">
-        {/* Badge */}
-        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 backdrop-blur-lg border border-blue-500/30 text-sm mb-8 animate-fade-in-up">
-          <Sparkles className="w-4 h-4 text-amber-400 animate-pulse" />
-          <span className="text-gray-300">Powered by AI - 98% Forecast Accuracy</span>
-        </div>
-
         {/* Headline */}
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold mb-6 animate-fade-in-up" style={{ animationDelay: '100ms' }}>
           <span className="text-white">Meet </span>
