@@ -1,0 +1,92 @@
+{
+  "deals": [
+    {
+      "id": 101,
+      "clientName": "Nebula Logistics",
+      "value": 15000,
+      "stage": "Negotiation",
+      "confidenceScore": 88,
+      "trend": "up",
+      "buddyInsight": "Decision maker viewed the pricing page 5 times today.",
+      "lastActivity": "2 hours ago",
+      "daysInStage": 3
+    },
+    {
+      "id": 102,
+      "clientName": "Cyberdyne Systems",
+      "value": 42000,
+      "stage": "Proposal",
+      "confidenceScore": 45,
+      "trend": "down",
+      "buddyInsight": "Warning: No email response for 10 days.",
+      "lastActivity": "10 days ago",
+      "daysInStage": 14
+    },
+    {
+      "id": 103,
+      "clientName": "Wayne Enterprises",
+      "value": 120000,
+      "stage": "Discovery",
+      "confidenceScore": 60,
+      "trend": "stable",
+      "buddyInsight": "Strong match with our enterprise tier.",
+      "lastActivity": "1 day ago",
+      "daysInStage": 5
+    },
+    {
+      "id": 104,
+      "clientName": "Stark Industries",
+      "value": 250000,
+      "stage": "Qualified",
+      "confidenceScore": 72,
+      "trend": "up",
+      "buddyInsight": "CEO mentioned budget approval in last call.",
+      "lastActivity": "3 hours ago",
+      "daysInStage": 2
+    },
+    {
+      "id": 105,
+      "clientName": "Umbrella Corp",
+      "value": 35000,
+      "stage": "Negotiation",
+      "confidenceScore": 94,
+      "trend": "up",
+      "buddyInsight": "Contract redlined, awaiting final signature.",
+      "lastActivity": "30 minutes ago",
+      "daysInStage": 1
+    },
+    {
+      "id": 106,
+      "clientName": "Oscorp Industries",
+      "value": 68000,
+      "stage": "Proposal",
+      "confidenceScore": 33,
+      "trend": "down",
+      "buddyInsight": "Competitor mentioned in recent email thread.",
+      "lastActivity": "5 days ago",
+      "daysInStage": 8
+    },
+    {
+      "id": 107,
+      "clientName": "Aperture Science",
+      "value": 95000,
+      "stage": "Discovery",
+      "confidenceScore": 78,
+      "trend": "up",
+      "buddyInsight": "Demo scheduled for next week, 4 stakeholders attending.",
+      "lastActivity": "4 hours ago",
+      "daysInStage": 7
+    },
+    {
+      "id": 108,
+      "clientName": "Weyland-Yutani",
+      "value": 180000,
+      "stage": "Qualified",
+      "confidenceScore": 55,
+      "trend": "stable",
+      "buddyInsight": "Budget review scheduled for Q1.",
+      "lastActivity": "2 days ago",
+      "daysInStage": 12
+    }
+  ]
+}

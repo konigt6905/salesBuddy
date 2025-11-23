@@ -1,0 +1,45 @@
+{
+  "pipelineStages": [
+    { "stage": "New Leads", "count": 450, "value": 2250000 },
+    { "stage": "Qualified", "count": 280, "value": 1680000 },
+    { "stage": "Discovery", "count": 150, "value": 1125000 },
+    { "stage": "Proposal", "count": 85, "value": 765000 },
+    { "stage": "Negotiation", "count": 45, "value": 540000 },
+    { "stage": "Won", "count": 28, "value": 420000 }
+  ],
+  "revenueHistory": [
+    { "month": "Jan", "actual": 85000, "predicted": 82000 },
+    { "month": "Feb", "actual": 92000, "predicted": 88000 },
+    { "month": "Mar", "actual": 78000, "predicted": 85000 },
+    { "month": "Apr", "actual": 110000, "predicted": 95000 },
+    { "month": "May", "actual": 125000, "predicted": 115000 },
+    { "month": "Jun", "actual": 118000, "predicted": 120000 },
+    { "month": "Jul", "actual": 135000, "predicted": 128000 },
+    { "month": "Aug", "actual": 142000, "predicted": 138000 },
+    { "month": "Sep", "actual": 155000, "predicted": 148000 },
+    { "month": "Oct", "actual": 168000, "predicted": 160000 },
+    { "month": "Nov", "actual": 175000, "predicted": 172000 },
+    { "month": "Dec", "actual": null, "predicted": 185000 }
+  ],
+  "conversionRates": {
+    "newToQualified": 62,
+    "qualifiedToDiscovery": 54,
+    "discoveryToProposal": 57,
+    "proposalToNegotiation": 53,
+    "negotiationToWon": 62
+  },
+  "weeklyActivity": [
+    { "day": "Mon", "calls": 45, "emails": 120, "meetings": 8 },
+    { "day": "Tue", "calls": 52, "emails": 135, "meetings": 12 },
+    { "day": "Wed", "calls": 48, "emails": 142, "meetings": 15 },
+    { "day": "Thu", "calls": 55, "emails": 128, "meetings": 10 },
+    { "day": "Fri", "calls": 38, "emails": 95, "meetings": 6 }
+  ],
+  "appStats": {
+    "totalRevenue": "$1,240,500",
+    "activeDeals": 45,
+    "winRate": "24%",
+    "avgDealSize": "$15,200",
+    "pipelineValue": "$2.4M"
+  }
+}

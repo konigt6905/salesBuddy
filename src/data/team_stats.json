@@ -1,0 +1,71 @@
+{
+  "teamPerformance": [
+    {
+      "id": 1,
+      "name": "Sarah Johnson",
+      "avatar": "SJ",
+      "sales": 185000,
+      "target": 200000,
+      "targetPercent": 93,
+      "deals": 12,
+      "winRate": 28,
+      "trend": "up",
+      "streak": 3
+    },
+    {
+      "id": 2,
+      "name": "Mike Rodriguez",
+      "avatar": "MR",
+      "sales": 162000,
+      "target": 180000,
+      "targetPercent": 90,
+      "deals": 9,
+      "winRate": 24,
+      "trend": "up",
+      "streak": 2
+    },
+    {
+      "id": 3,
+      "name": "Jessica Thompson",
+      "avatar": "JT",
+      "sales": 191000,
+      "target": 200000,
+      "targetPercent": 96,
+      "deals": 14,
+      "winRate": 31,
+      "trend": "up",
+      "streak": 5
+    },
+    {
+      "id": 4,
+      "name": "David Chen",
+      "avatar": "DC",
+      "sales": 145000,
+      "target": 175000,
+      "targetPercent": 83,
+      "deals": 8,
+      "winRate": 22,
+      "trend": "stable",
+      "streak": 0
+    },
+    {
+      "id": 5,
+      "name": "Emily Watson",
+      "avatar": "EW",
+      "sales": 178000,
+      "target": 190000,
+      "targetPercent": 94,
+      "deals": 11,
+      "winRate": 26,
+      "trend": "up",
+      "streak": 4
+    }
+  ],
+  "teamTotals": {
+    "totalSales": 861000,
+    "totalTarget": 945000,
+    "totalDeals": 54,
+    "avgWinRate": 26.2,
+    "topPerformer": "Jessica Thompson"
+  }
+}
